@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffff00">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LANGUAGES"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_weight="0.02" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:id="@+id/checkBox"
+        android:layout_weight="0.02"
+        android:checked="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telugu"
+        android:id="@+id/checkBox2"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindhi"
+        android:id="@+id/checkBox3"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamil"
+        android:id="@+id/checkBox4"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marati"
+        android:id="@+id/checkBox5"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gujarathi"
+        android:id="@+id/checkBox6"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malayalam"
+        android:id="@+id/checkBox7"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odia"
+        android:id="@+id/checkBox8"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punjabhi"
+        android:id="@+id/checkBox9"
+        android:layout_weight="0.02"
+        android:checked="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="start"
+        android:background="#00ff00"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "271689760558",
+    "firebase_url": "https://technikart-3fd7f.firebaseio.com",
+    "project_id": "technikart-3fd7f",
+    "storage_bucket": "technikart-3fd7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271689760558:android:a12e17dad74d8939",
+        "android_client_info": {
+          "package_name": "com.example.technikart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271689760558-hijgo5qfuh15gisoq9ldfft8uceju5ht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.technikart",
+            "certificate_hash": "957b72225fd7a6a181fdddeb8c000f1eff2e7651"
+          }
+        },
+        {
+          "client_id": "271689760558-3pgbg09lss3ig212ltppv9o7411g9s34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK5ZfBhqu_rssrMz3TjOB2RBZd1K3AngQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271689760558-3pgbg09lss3ig212ltppv9o7411g9s34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
